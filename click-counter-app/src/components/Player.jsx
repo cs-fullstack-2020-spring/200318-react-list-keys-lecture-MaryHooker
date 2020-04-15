@@ -11,7 +11,7 @@ class Player extends Component {
             <div>
                 <h3>Player Name: {this.props.name}</h3>
                 {/* Use onClick event listener and using this.props reference the function in the parent to run */}
-                <button onClick={this.props.addToScorecallBack}>Add to Score</button>
+                <button onClick={this.props.addToScorecallBack} className='button'>Add to Score</button>
             </div>
         );
     }

@@ -4,3 +4,8 @@
   color: rgb(136, 40, 136);
   height: 150vh;
 }
+
+.button{
+  background-color: rgb(62, 62, 124);
+  color: white;
+}
